@@ -1,0 +1,128 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@charset "utf-8";
+ 
+@font-face {  font-family: "SourceHanSansLight";  src: url("fonts/SourceHanSansJP-Light.woff") format('woff');}
+ 
+.SourceHanSansLight {  font-family: "SourceHanSansLight";}
+div#container {
+    margin: 0 auto;
+    width:100%;
+    max-width: 1024px;
+    font-family: "SourceHanSansLight";
+}
+
+.heading {
+    color: #fff;
+    font-family: "myriad-pro";
+    font-size: 40px;
+    &.dark {
+        color: #3a2f28;
+    }
+}
+.col {
+    background: rgba(255,255,255, 0.8);
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 35px;
+    .text {
+        font-size: 27px;
+        line-height: 1.4;
+    }
+}
+.cbox {
+    padding: 40px;
+}
+#header {
+    background: url(../images/headerbg.png) no-repeat;
+    background-size: auto;
+    padding: 100px;
+    position: relative;
+    h1 {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+    }
+}
+
+#about {
+    background: url(../images/coffee.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 630px;
+}
+#open {
+    background: url(../images/room.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 710px;
+}
+#drinks {
+    background: url(../images/coffeecup.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 810px;
+}
+#foods {
+    background: url(../images/foods.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 640px;
+}
+#access {
+    background: url(../images/access.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 510px;
+}
+#facebook {
+    background: url(../images/access.jpg) no-repeat;
+    background-size: auto;
+    position: relative;
+    height: 510px;
+}
+.box2col {
+    background: rgba(255,255,255, 0.8);
+    overflow: hidden;
+    .inner {
+        float: left;
+    }
+}
+#map {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+#footer {
+    text-align: center;
+    margin: 100px auto;
+    font-family: "myriad-pro";
+    color: #3a2f28;
+    font-size: 20px;
+}
+.fb-like-box,.fb-like-box span, .fb-like-box iframe {
+ width: 100% !important;
+}
+.shopbox {
+    text-align: center;
+    margin: 40px 0;
+    .shopbtn {
+        display: inline-block;
+        padding: 20px 40px;
+        color: #ffffff;
+        background-color: #3a2f28;
+        font-size: 40px;
+        text-decoration: none;
+        margin-top: 20px;
+        font-family: "myriad-pro";
+        border-radius: 5px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

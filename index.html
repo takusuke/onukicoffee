@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ONUKI COFFEE ROASTERY</title>
+    <meta name="description" content="北海道中標津で焙煎したてのコーヒー豆を販売しております。" itemprop="description">
+    <meta name="keywords" content="コーヒー豆,通販,北海道,中標津,スペシャルティコーヒー">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ONUKI COFFEE ROASTERY">
+    <meta property="og:title" content="ONUKI COFFEE ROASTERY">
+    <meta property="og:url" content="http://www.onukicoffee.com" itemprop="url">
+    <meta property="og:image" content="http://images.onukicoffee.com/ogp.jpg" itemprop="image">
+    <meta property="og:description" content="北海道中標津で焙煎したてのコーヒー豆を販売しております。">
+    <link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" type="text/css">
+    <script src="//use.typekit.net/zoa3lwo.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyApGzhZ6NxKcyYbqangJuhBns1vk39GfKg&sensor=false"></script>-->
+    <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</head>
+<body>
+    <div id="container">
+     <div id="header" class="cbox">
+         <h1><img src="images/logomark.png" alt="ONUKI COFFEE ROASTERY"></h1>
+     </div>
+     
+     <div id="about" class="cbox">
+         <h2 class="heading">About</h2>
+         <div class="col">
+             <p class="text">毎日焙煎したての新鮮なコーヒー豆を販売しております。</p>
+             
+             <div class="shopbox">
+                 <p class="text">コーヒー豆はこちらからもご購入いただけます。</p>
+                 <a href="http://shop.onukicoffee.com/" target="_blank" class="shopbtn">Shopping</a>
+             </div>
+         </div>
+     </div>
+     <div id="open" class="cbox">
+         <h2 class="heading">Opening Hours</h2>
+         <div class="col">
+             <p class="text"><span class="myriad">7 : 00 ~ 18 : 00</span></p>
+             <p class="text">定休日：毎週月曜日</p>
+         </div>
+     </div>
+     <div id="drinks" class="cbox">
+         <h2 class="heading">Drinks</h2>
+         <div class="col">
+             <p class="text">日替わりの本日のコーヒーのほか、店内のすべてのコーヒーをお楽しみいただけます。<br>コーヒー以外のメニューもございます。</p>
+         </div>
+     </div>
+     <div id="foods" class="cbox">
+         <h2 class="heading">Foods</h2>
+         <div class="col">
+             <p class="text">トーストなどの軽食と、日替わりのお菓子をご用意しております。</p>
+         </div>
+     </div>
+     <div id="access" class="cbox">
+         <h2 class="heading">Access</h2>
+         <div class="col box2col">
+             <div class="inner first">
+                 <p class="text">北海道標津郡中標津町東5条北2丁目3番地</p>
+                 <p class="text">TEL : 0153-70-4214</p>
+             </div>
+             <div id="map" class="inner second"></div>
+         </div>
+     </div>
+     
+     
+     <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=445253172290128&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+   <div id="facebook" class="cbox">
+    <h2 class="heading">Facebook</h2>
+    <div class="col">
+    <div class="fb-like-box" data-href="https://www.facebook.com/onukicoffee" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
+    </div>
+   </div>
+     <div id="footer">
+         ONUKI COFFEE ROASTERY
+     </div>
+     </div>
+<script>
+google.maps.event.addDomListener(window, 'load', function() {
+    var mapdiv = document.getElementById('map');
+    var myOptions = {
+        zoom: 15,
+        center: new google.maps.LatLng(43.552453, 144.977015),
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        scaleControl: true,
+    };
+    var map = new google.maps.Map(mapdiv, myOptions);
+    var marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(43.552453, 144.977015),
+    });
+});
+</script>
+
+ </body>
+ </html>
